@@ -1,0 +1,96 @@
+body{
+    box-sizing: border-box;
+}
+.header{
+    max-width: 1920px;
+    width: 100%;
+    background-color: black;
+    margin: 0% auto;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-ineer{
+    display: flex;
+    justify-content: space-between ;
+    margin: 10px;
+    
+}
+.header-ineer img{
+    height: 40px;
+    margin-right: 95px;
+}
+.header-ineer .nav{
+    align-self: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.header-ineer .nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.header-ineer .nav a:last-child{
+    margin-right: 250px;
+}
+.header-ineer .nav a:hover{
+    color:#CAD800 ;
+    transition: .3s;
+}
+.header-wrapper .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-wrapper .input a{
+    margin-left: 20px;
+    
+}
+.header-wrapper .input .poisk{
+    background: #C4C4C4;
+    border-radius: 20px;
+    width: 290px;
+    height: 22px;
+}
+/* =========header-cloded========== */
+#main{
+    display: flex;
+    justify-content: center;
+    max-width: 1325px;
+    width: 100%;
+    margin: 225px auto;
+}
+#main .main-text{
+    margin-left: 70px;
+}
+#main .main-text .text{
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 50px;
+}
+#main .main-text .btn{
+    margin-top: 50px;
+    align-self: center;
+    font-size: 18px;
+    text-transform: uppercase;
+       
+}
+#main .main-text .btn a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 50px;
+    text-decoration: none;
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+#main .main-text .btn a:last-child{
+    margin-left:25px; 
+}
+#main .main-text .btn a:hover{
+    transition: .2s;
+    background: #CAD800;
+}
+

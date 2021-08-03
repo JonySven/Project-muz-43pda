@@ -1,0 +1,128 @@
+body{
+    box-sizing: border-box;
+}
+.header{
+    max-width: 1920px;
+    width: 100%;
+    background-color: black;
+    margin: 0% auto;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-ineer{
+    display: flex;
+    justify-content: space-between ;
+    margin: 10px;
+    
+}
+.header-ineer img{
+    height: 40px;
+    margin-right: 95px;
+}
+.header-ineer .nav{
+    align-self: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.header-ineer .nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.header-ineer .nav a:last-child{
+    margin-right: 250px;
+}
+.header-ineer .nav a:hover{
+    color:#CAD800 ;
+    transition: .3s;
+}
+.header-wrapper .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-wrapper .input a{
+    margin-left: 20px;
+    
+}
+.header-wrapper .input .poisk{
+    background: #C4C4C4;
+    border-radius: 20px;
+    width: 290px;
+    height: 22px;
+}
+
+.conteiner{
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+}
+.conteiner-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;      
+}
+.items {
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.conteiner-items .items img{
+    height: 209px;
+    margin: 0;
+    padding: 0;
+}
+.conteiner-items .items-flex-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 0 0 15px;
+    line-height: 1.6;
+}
+
+.items-flex-box .title{
+    font-size: 24px;
+    font-weight: 500;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+.items-flex-box .subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #C4C4C4;
+    margin: 0;
+    padding: 0;
+}
+.items-flex-box text{
+    font-size: 18px;
+    font-weight: 400;
+    color:black;
+    margin: 0;
+    
+}
+
+.items-flex-box a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400px;
+    margin: 0;
+    padding: 0;
+ }
+ .items-flex-box a{
+     width: 180px;
+     height: 30;
+     border-radius: 10px;
+     background:#CAD800 ;
+     text-align: center;
+ }
